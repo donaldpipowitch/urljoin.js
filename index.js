@@ -1,4 +1,4 @@
-var urlResolve = require('resolve-pathname');
+var urlResolve = require('resolve-pathname').default;
 var urlSplit = require('./urlsplit');
 
 // _urlJoin joins two urls
